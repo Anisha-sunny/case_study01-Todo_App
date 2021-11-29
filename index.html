@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>login</title>
+</head>
+<body>
+  <div id="todo">
+<h1>To Do List...</h1>
+<br><br>
+</div>
+<form action="" >
+  
+
+  <div class="container">
+    <label for="uname"  class="clr"><b>Email id</b></label>
+    <input type="text" id="mail" placeholder="Email id" name="uname" >
+    
+    <br>
+    <label for="psw"  class="clr"><b>Password</b></label>
+    <input type="password" id="pass" placeholder="Enter Password" name="psw" >
+   
+    <br>   
+    <button type="submit" style="border-radius: 5px;" onclick="login()"><b>Login</b></button>
+    <label class="clr">
+    <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#0d0e0de1">
+    <a href="index.html" ><button type="button" class="cancelbtn" style="border-radius: 4px;"onclick="clearFunc()">Reset</button></a>
+    <span class="psw"> <a href="#">Forgot  password?</a></span>
+  </div>
+</form>
+<script src="todo.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(116, 95, 101);
+    /* background-image: url('todo.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+ 
